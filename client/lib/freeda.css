@@ -1,0 +1,260 @@
+/* CSS declarations go here */
+ @font-face {
+  font-family:"CAC Pinafore";
+  src:
+    url("/fonts/CACPINAF.eot?") format("eot"),
+    url("/fonts/CACPINAF.woff") format("woff"),
+    url("/fonts/CACPINAF.ttf") format("truetype"),
+    url("/fonts/CACPINAF.svg#CACPinafore") format("svg");
+  font-weight:normal;
+  font-style:normal;
+  }
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('/fonts/OpenSans-Light-webfont.eot');
+    src: url('/fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('/fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('/fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('/fonts/OpenSans-Regular-webfont.eot');
+    src: url('/fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('/fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('/fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('/fonts/OpenSans-Bold-webfont.eot');
+    src: url('/fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('/fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('/fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('/fonts/OpenSans-Semibold-webfont.eot');
+    src: url('/fonts/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('/fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('/fonts/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html,body {
+  height:100%;
+}
+
+h1 {
+  color:#fff;
+}
+
+h1.logo{
+	font-size:10em;
+  font-family: "CAC Pinafore",serif;
+}
+
+h1.logo a:hover{
+  text-decoration: none;
+  text-shadow:2px 3px 4px #333;
+}
+
+hr{width: 100%;}
+
+.lead {
+	color:#444;
+}
+
+strong, h1, h2, dt{
+  font-family: open_sanssemibold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.firstLetter{
+  letter-spacing: -0.15em;
+}
+
+ol li{padding: 0.25em 0;}
+
+
+dt{margin-top: 15px;}
+
+
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  /*min-height:100%;*/
+  background-color:#110022;
+  color:#eee;
+  overflow:hidden;
+}
+
+#freeda{
+  background: #61456A url(/img/rainbowfixed.jpg) bottom center no-repeat;
+  margin: 0;
+  width: 450px;
+  padding: 0 2.5% 2% 2.5%;
+  position: absolute;
+  right: 5%;
+  top:0;
+  z-index: 999;
+  color: #fff;  
+  background-size: 100%;
+  box-sizing:border-box;
+}
+
+#freeda p{
+  max-width: 85%;
+  margin: 1em auto;
+}
+
+#freeda a{color: #fff;}
+
+
+
+
+
+#freeda .btn{
+  background: #EFBE3E;
+  width: 80%;
+  margin: 0.5em 0;
+}
+
+a.btn{color: #fff;}
+
+.buscaLocal{display: block; width: 80%; margin: 0.5em auto;}
+.buscaLocal .input-group-addon{
+  border-radius: 4px 0 0 4px !important;
+  border-right: none;
+  background: #61456A;
+  color: #fff;
+}
+
+input#autocomplete-cities{
+  background: #61456A;
+  color: #fff;
+  border-left: none;
+}
+      
+
+input#autocomplete-cities::-webkit-input-placeholder {
+   color: #fff;
+}
+
+input#autocomplete-cities:-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+
+input#autocomplete-cities::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+input#autocomplete-cities:-ms-input-placeholder {  
+   color: #fff;  
+}
+
+.container-full a {
+  color:#efefef;
+  text-decoration:none;
+}
+
+.v-center {
+ 
+}
+
+img.center {
+  margin: 5% auto;
+  display: block;
+}
+
+img.right {
+  margin: 0 3% 0 1%;
+}
+
+nav{
+   background: #fff url(/img/rainbowv.png) left center no-repeat;
+   position: absolute;
+   bottom: 0;
+   left: 5%;
+   width: 600px;
+   display: block;
+   float: left;
+   z-index: 999;
+   box-shadow: 2px 0px 3px #666;
+}  
+
+nav li{
+  list-style-type: none;
+  display: inline;
+}
+
+nav li a{
+  display: block;
+  float: left;
+  padding: 2%;
+  color: #666;
+  margin: 0 2%;
+  border-top:6px solid #666;
+
+}
+
+nav li a:hover{
+  color: #61456A;
+  border-color: #61456A;
+  text-decoration: none;
+}
+
+.text-center p.lead{max-width: 80%; margin-left: auto; margin-right: auto;}
+
+#map-box{
+  height: 150px;
+  width: 100%;
+  display: block;
+}
+
+#map-canvas.menor{height: 250px;}
+
+.modal-footer, 
+.modal-lg.no-footer .modal-body,
+.no-footer .modal-body
+{
+  /*background: #fff url(/img/rainbowh10.png) bottom center no-repeat; */
+  background-size: 100%;
+  border-radius: 5px;
+}
+
+.no-footer .modal-body{
+ /* background-image: url(/img/rainbowh20.png);*/
+}
+
+.modal-footer.left{
+  text-align: left;
+}  
+
+.required:after {
+  content:"*";
+  color:red;
+}
+
+#form .form-group.text-right{padding: 15px 30px; margin-top: 30px; }
+
+#form .input-group select.form-control{
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 0!important;
+}

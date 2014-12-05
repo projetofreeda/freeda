@@ -1,0 +1,41 @@
+<template name="home">
+    {{> autoformModals}}
+    <div id="freeda"> 
+      <div class="text-center">  
+        <h1 class="logo">
+            <a href="{{pathFor 'home'}}">
+                <span class="firstLetter">F</span>reeda
+            </a>
+        </h1>
+        <p>Um aplicativo para <strong>avaliar de forma colaboratiava</strong> serviços que <strong>respeitam a diversidade sexual e de gênero</strong>. Participe!</p>
+
+            
+        {{> googleCities}}
+
+
+        <a href="#form" data-toggle="modal" class="btn btn-lg" collection="Posts" id="avalie"> <strong>AVALIE</strong><br>UM LOCAL</a>
+       
+        <p><small><a href="#termo" data-toggle="modal" data-target="#termo">Termo de uso</a></small></p>
+
+      </div>  
+    </div> 	
+        <nav role="navigation">
+        	<ul>
+        		<li><a href="#direitos" data-toggle="modal" data-target="#direitos">CONHEÇA SEUS DIREITOS</a></li>
+        		<li><a href="#selo" data-toggle="modal" data-target="#selo">SELO FREEDA</a></li>
+        		<li><a href="#quem-somos" data-toggle="modal" data-target="#quem-somos">QUEM SOMOS</a></li>
+        	</ul>	
+        </nav>
+  <div id="default" style="width:100%; height:100%"></div>
+  <!--  {{> googleMaps}} -->
+    {{> selo}}
+    {{> direitos}}
+    {{> form}}
+    {{> termo}}
+    {{> quemSomos}}
+    {{> analytics}}
+    {{> sentReview}}
+</template>
+
+
+

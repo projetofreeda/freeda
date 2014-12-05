@@ -1,0 +1,30 @@
+<template name="reviews">
+  {{#each posts}}
+    <h1>{{nomeLocal}}</h1>
+    <p>{{endereco}}</p>
+    <p>{{atendimento}}</p>
+    <p>{{publico}}</p>
+    <p>{{cometario}}</p>
+  {{/each}}
+
+{{> reviewsList}}
+
+</template>
+
+
+
+<template name="reviewsList" class="with-bottom-spacer">
+  <div id="customerSearchContainer">
+    <input id="customerSearchInput" type="text" class="fullwidth form-control" placeholder="Filter...">
+    <div class="spacer"></div>
+  </div>
+  <ul class="list-group">
+    {{#each posts}}
+       <li class="list-group-item">{{nomeLocal}} {{endereco}}</li>
+    {{/each}}
+  </ul>
+</template>
+
+<template name="postlist">
+  <li class="list-group-item">{{nomeLocal}} {{endereco}}</li>
+</template>

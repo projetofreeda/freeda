@@ -1,0 +1,70 @@
+<template name="form">
+
+ 	<div class="modal" id="form">
+ 		<div class="modal-dialog modal-lg">
+      		<div class="modal-content">
+        		<div class="modal-header">
+		          <button type="button" class="close" data-dismiss="modal">×</button>
+		          <h2 class="modal-title">Avalie um local</h2>
+        		</div>
+        		{{#autoForm collection="Posts" id="form" type="insert" autosave="true" resetOnSuccess="false"}}
+        		<div class="modal-body">
+      				<!--{{> googlePlaces}}-->
+
+				    
+				    <fieldset class="col-md-12">
+				      
+				      	<div class="form-group">	
+					      {{> afQuickField  name="nomeLocal" class="required"}}
+
+					      {{> afQuickField  name="endereco" class="required"}}
+					  	</div> 
+
+					  	<div class="panel panel-default">
+					  		<div class="panel-heading">
+					  			Não vale avaliar a cerveja 	quente ou o croquete gorduroso!<br> Leve em conta o respeito à diversidade sexual e identidade de gênero nos seguintes aspectos:
+							</div>
+					  
+						  	<div class="panel-body">
+							  	<div class="form-group">
+							  		<div class="col-md-4">
+								  		<div class="form-group">		
+								      		{{> afQuickField  name="atendimento" options="allowed" firstOption="merece nota..." class="required"}}
+								      		{{> afQuickField  name="publico" options="allowed" firstOption="merece nota..." class="required"}}
+								  		</div>
+							  		</div>		  
+							  		<div class="col-md-8">
+
+									   	{{> afQuickField  name="banheiro"}}
+									   	{{> afQuickField  name="nomesocial"}}
+									   	{{> afQuickField  name="afeto"}}
+									   	{{> afQuickField  name="acessibilidade" }}
+							  		</div>
+						     	</div>
+
+						     	<div class="col-md-12">
+						     		{{> afQuickField  name="discriminacao" type="select" firstOption="De que tipo?" multiple="multiple" options="allowed"}}
+
+
+						     	</div>
+						      	
+						      	
+						      	
+						    </div>
+						</div>	
+						{{> afQuickField  name="comentario" rows=4}}				  
+				    </fieldset>
+				</div>
+				<div class="form-group text-right"> 
+					<button type="reset" class="btn btn-default">Limpar</button>
+				    <button type="submit" class="btn btn-success">Enviar</button>
+				</div>
+				    
+				{{/autoForm}}
+					
+			</div>
+		</div>
+	</div>
+</template>
+
+
