@@ -9,7 +9,7 @@ Com um cenário de violência tão profunda, vemos como necessária a criação 
 
 ###Funcionalidades atuais
 
-####AVALIAÇÃO DE LOCAIS
+####*AVALIAÇÃO DE LOCAIS
 Clicando no botão "Avalie um local" na página inicial, o usuário pode cadastrar serviços públicos ou privados em que foi bem atendido. O formulário envia a resposta para um banco de dados e a seleção e exibição do conteúdo no mapa é feita de forma manual. No formulário, o usuário pode cadastrar o nome do local, o endereço, fazer comentários e avaliar questões pontuais como o respeito ao nome social, acesso ao banheiro e acessibilidade.
 
 ####CONHEÇA SEUS DIREITOS
