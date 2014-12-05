@@ -9,7 +9,7 @@ Com um cenário de violência tão profunda, vemos como necessária a criação 
 
 ###Funcionalidades atuais
 
-####*AVALIAÇÃO DE LOCAIS
+####AVALIAÇÃO DE LOCAIS
 Clicando no botão "Avalie um local" na página inicial, o usuário pode cadastrar serviços públicos ou privados em que foi bem atendido. O formulário envia a resposta para um banco de dados e a seleção e exibição do conteúdo no mapa é feita de forma manual. No formulário, o usuário pode cadastrar o nome do local, o endereço, fazer comentários e avaliar questões pontuais como o respeito ao nome social, acesso ao banheiro e acessibilidade.
 
 ####CONHEÇA SEUS DIREITOS
@@ -27,8 +27,10 @@ O Selo de Compromisso Social Freeda é uma ferramenta que tem o objetivo de divu
 Freeda foi desenvolvido utilizando [Meteor] (https://www.meteor.com/). Além disso, usamos a API do Google Maps para a renderização do mapa e a API do Google Places para obter o nome dos estabelecimentos no formulário de busca.
 
 ###Vivência
+Antes de inicar o desenvolvimento durante o hackathon, o grupo optou por realizar uma pesquisa de opinião divulgada nas redes sociais. O formulário foi respondido por 220 pessoas, que colaboraram com informações sobre sua vivência nos espaços públicos em relação ao respeito à diversidade. Com os resultados, nos convencemos de que as pessoas se importam com a forma em que o estabelecimento trata a população LGBT e que deixaria de visitar um local avaliado negativamente.
 
+Durante o hackathon, focamos na criação da identidade visual e pensando a interface. Trabalhamos para gerar algo que fosse simples, bonito e intuitivo.
 
 
 ###Para saber mais
-Para saber mais sobre o projeto, visualize a apresentação utilizada durante o Hackathon Gênero e Cidadania, em Brasília.
+Para saber mais sobre o projeto, visualize a [apresentação](https://github.com/projetofreeda/freeda/blob/master/apresentacao_freeda.pdf) utilizada durante o Hackathon Gênero e Cidadania, em Brasília.
