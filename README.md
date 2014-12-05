@@ -1,4 +1,4 @@
-freeda
+Freeda - Espaços de diversidade
 ======
 #####Disponível em http://freeda.me
 
@@ -18,22 +18,17 @@ Além do cadastro dos estabelecimentos, Freeda conta com referências de proteç
 ####SELO SOCIAL FREEDA
 O Selo de Compromisso Social Freeda é uma ferramenta que tem o objetivo de divulgar e valorizar instituições que   estejam dispostas a adotar políticas de respeito à diversidade e à igualdade de gênero em suas atividades no       contato com o público e em suas políticas internas.
 
+###Funcionalidades a implementar
+- Sistema de gerência e publicação de reviews
+- Sistema para geração de rankings que mostrem os locais com maior quantidade de serviços que tratem a diversidade sexual com respeito e maior número de denúncias de discriminações por região
+- Versão mobile.
+
 ###Desenvolvimento
 Freeda foi desenvolvido utilizando [Meteor] (https://www.meteor.com/). Além disso, usamos a API do Google Maps para a renderização do mapa e a API do Google Places para obter o nome dos estabelecimentos no formulário de busca.
 
+###Vivência
 
 
 
-Para saber mais sobre o projeto, visualize a apresentação
-
-
-Funcionalidades a implementar
-sistema de gerência e publicação de reviews.
-
-
-
-
-
-
->> Futuras implementações
-No futuro, o aplicativo poderá gerar rankings que mostrem os locais com maior quantidade de serviços que tratem a diversidade sexual com respeito e maior número de denúncias de discriminações por região.
+###Para saber mais
+Para saber mais sobre o projeto, visualize a apresentação utilizada durante o Hackathon Gênero e Cidadania, em Brasília.
