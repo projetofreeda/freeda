@@ -13,10 +13,10 @@ Com um cenário de violência tão profunda, vemos como necessária a criação 
 Clicando no botão "Avalie um local" na página inicial, o usuário pode cadastrar serviços públicos ou privados em que foi bem atendido. O formulário envia a resposta para um banco de dados e a seleção e exibição do conteúdo no mapa é feita de forma manual. No formulário, o usuário pode cadastrar o nome do local, o endereço, fazer comentários e avaliar questões pontuais como o respeito ao nome social, acesso ao banheiro e acessibilidade.
 
 ####CONHEÇA SEUS DIREITOS
-Além do cadastro dos estabelecimentos, Freeda conta com referências de proteção aos direitos LGBT, como       legislações e regulamentações de órgãos públicos, para que sejam utilizadas em momentos de conflito ou episódios de homofobia.
+Além do cadastro dos estabelecimentos, Freeda conta com referências de proteção aos direitos LGBT, como legislações e regulamentações de órgãos públicos, para que sejam utilizadas em momentos de conflito ou episódios de homofobia.
 
 ####SELO SOCIAL FREEDA
-O Selo de Compromisso Social Freeda é uma ferramenta que tem o objetivo de divulgar e valorizar instituições que   estejam dispostas a adotar políticas de respeito à diversidade e à igualdade de gênero em suas atividades no       contato com o público e em suas políticas internas.
+O Selo de Compromisso Social Freeda é uma ferramenta que tem o objetivo de divulgar e valorizar instituições que   estejam dispostas a adotar políticas de respeito à diversidade e à igualdade de gênero em suas atividades no       contato com o público e em suas políticas internas. Ao clicar no botão presente na página inicial o responsável por um estabelecimento pode ter acesso aos Princípios Freeda, que discorrem sobre os valores do projeto. Caso aceite as condições, pode submeter sua inscrição pelo formulário de contato e receber por e-mail, após análise manual, o material para impressão e exposição no estabelecimento.
 
 ###Funcionalidades a implementar
 - Sistema de gerência e publicação de reviews
@@ -29,7 +29,9 @@ Freeda foi desenvolvido utilizando [Meteor] (https://www.meteor.com/). Além dis
 ###Vivência
 Antes de inicar o desenvolvimento durante o hackathon, o grupo optou por realizar uma pesquisa de opinião divulgada nas redes sociais. O formulário foi respondido por 220 pessoas, que colaboraram com informações sobre sua vivência nos espaços públicos em relação ao respeito à diversidade. Com os resultados, nos convencemos de que as pessoas se importam com a forma em que o estabelecimento trata a população LGBT e que deixaria de visitar um local avaliado negativamente.
 
-Durante o hackathon, focamos na criação da identidade visual e pensando a interface. Trabalhamos para gerar algo que fosse simples, bonito e intuitivo.
+Durante o hackathon, focamos na criação da identidade visual, pensamos a interface e fizemos a primeira implementação do protótipo. Trabalhamos para gerar algo que fosse simples, bonito e intuitivo. Escolhemos o lilás e as cores da bandeira LGBT para criar uma relação identitária com o público-alvo.
+
+Após a apresentação do projeto no evento passamos a desenvolver a primeira versão beta, que deve contemplar os recursos básicos de acesso ao conteúdo do Selo Social Freeda e da seção Conheça seus Direitos, além da possibilidade de ver alguns locais já cadastrados na cidade de Porto Alegre e o formulário para este cadastro, acessado por meio do botão "avalie um local".
 
 
 ###Para saber mais
