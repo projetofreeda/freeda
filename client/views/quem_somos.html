@@ -1,4 +1,12 @@
 <template name="quemSomos">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=217945654932006&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<div class="modal" id="quem-somos">
 		<div class="modal-dialog">
       		<div class="modal-content no-footer">
@@ -22,7 +30,8 @@
 
 					<h3>Contato</h3>
 					<p class="lead">freeda@freeda.me</p>
-						<br><br><br><br><br>
+					
+					<div class="fb-like-box" data-href="https://www.facebook.com/freedalgbt" data-width="600" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="false"></div>
 
 
 						
